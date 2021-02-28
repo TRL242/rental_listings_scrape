@@ -50,7 +50,7 @@ driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 for n in range(len(all_links)):
     # Substitute your own Google Form URL here 👇
-    driver.get("https://docs.google.com/forms/d/1TCORdX4k89FvTJnLMKR76QIZ9zRM-S_sRWTUao_o9Tw/prefill")
+    driver.get("https://docs.google.com/forms/d/e/1FAIpQLSf26yhMFLX0qzN23pr86rAZT0Ex0c4BTUiTp5bgcXpI1bX1cQ/viewform?usp=sf_link")
 
     time.sleep(2)
     address = driver.find_element_by_xpath(
